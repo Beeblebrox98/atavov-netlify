@@ -49,8 +49,8 @@ app.component("bio-display", {
         <div class="info-child" v-if="portfolio">
         <div class="portfolio-container">
         <a href="https://alumaster.netlify.app/" target="_blank"><img src="/css/image/alumaster.png" alt=""></a><p>Сайт-каталог компании</p>
-        <a href="https://vuemasterysocks.netlify.app/" target="_blank"><img src="/css/image/vueSite.png" alt=""></a><p>Страница интернет-магазина, написанная при помощи фреймворка «Vue.js»</p>
         <a href="https://kidney-pol.netlify.app/" target="_blank"><img src="/css/image/kidney.png" alt=""></a><p>Страница детской поликлиники, свёрстаная с применением «flex-box» элементов</p>
+        <a href="https://vuemasterysocks.netlify.app/" target="_blank"><img src="/css/image/vueSite.png" alt=""></a><p>Страница интернет-магазина, написанная при помощи фреймворка «Vue.js»</p>
         </div>        
         <div class="back" v-else @click="(portfolio = !portfolio), (hide = !hide)" key="back">        
         </div>
